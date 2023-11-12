@@ -96,7 +96,8 @@ D - The principle of performance is not applied.
 *Q5B: What do you suggest could be done to improve the situation?*
 
 ```
-Answer here
+Q5A: B - The principle of observability is not applied.
+Q5B: Alan should adopt the best practices of Observability https://aws-observability.github.io/observability-best-practices/
 ```
 
 ---
