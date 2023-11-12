@@ -30,7 +30,7 @@ Please attempt the solve the problems described:
 What is the Bash command to discover the IP Address of `www.skillsunion.com`?
 
 ```sh
-# Answer here
+$ nslookup baeldung.com
 ```
 
 ---
@@ -51,7 +51,16 @@ Implement a bash script that does the follow:
 1. Loop through the array and print each element.
 
 ```sh
-# Answer here
+#!/bin/bash
+# Define a string separated by commas
+string="one,two,three"
+# Set the IFS to comma
+IFS=','
+# Use read to bash split string into array
+read -ra myvar <<< "$string"
+# Output the array and its length
+echo "My array: ${myvar[@]}"
+echo "Number of elements in the array: ${#myvar[@]}"
 ```
 
 ---
